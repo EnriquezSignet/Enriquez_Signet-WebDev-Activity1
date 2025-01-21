@@ -72,6 +72,20 @@
   }
 }
 
+@media (max-width: 768px) {
+  .home_container {
+    padding: 0 20px;
+  }
+
+  .home_container h1 {
+    font-size: 28px;
+  }
+
+  .home_img {
+    text-align: center;
+  }
+}
+
 /* ========== ABOUT ========== */
 
 @media screen and (max-width: 992px) {
@@ -96,6 +110,16 @@
 
 @media screen and (max-width: 576px) {
   .about_img img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_container {
+    grid-template-columns: 1fr;
+  }
+
+  .about_info > div {
     width: 100%;
   }
 }
