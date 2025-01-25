@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" href="assets/favicon2.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/logo.svg" type="image/x-icon" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
-    <title>Signet Enriquez Portfolio</title>
+    <title>Signet Enriquez</title>
   </head>
   <body>
     <!-- ========== HEADER ========== -->
@@ -31,11 +31,11 @@
           <li class="menu_item">
             <a href="#about" class="menu_link">About</a>
           </li>
-          <li class="menu_item">
+          <!--<li class="menu_item">
             <a href="#expertise" class="menu_link">Expertise</a>
-          </li>
+          </li> -->
           <li class="menu_item">
-            <a href="#portfolio" class="menu_link">Portfolio</a>
+            <a href="#portfolio" class="menu_link">Projects</a>
           </li>
           <li class="menu_item">
             <a href="#contact" class="menu_link">Contact</a>
@@ -51,10 +51,10 @@
       <section class="home section" id="home">
         <div class="home_container container grid">
           <div class="home_content">
-            <h4>Hello there! I am Signet</h4>
+            <h4>Hello there! I am Signet Enriquez</h4>
             <h1>
               An aspiring
-              <span class="typed" data-typed-items="System Analyst"></span>
+              <span class="typed" data-typed-items="Analyst"></span>
             </h1>
             <p>
               I'm a fourth year college student at the Technological University
@@ -74,9 +74,9 @@
             <a
               href="#about"
               class="btn"
-              onclick="window.open('./assets/CV1.pdf')"
+              onclick="window.open('./assets/Signet Enriquez - OJT Trainee - Resume.pdf')"
             >
-              Download CV
+              Download Résumé
               <ion-icon name="download-outline"></ion-icon>
             </a>
           </div>
@@ -253,7 +253,7 @@
 
       <!-- ========== PORTFOLIO SECTION ========== -->
       <section class="portfolio section" id="portfolio">
-        <h2 class="section_title">Portfolio</h2>
+        <h2 class="section_title">Projects</h2>
 
         <div class="portfolio_container container">
           <ul class="portfolio_filters">
@@ -262,25 +262,25 @@
             <li data-filter=".filter-python">Python Programming</li>
             <li data-filter=".filter-web">Website</li>
           </ul>
+
           <div class="portfolio_wrap-container">
+            <!-- Portfolio Item 1 -->
             <div class="portfolio_item filter-python">
               <div class="portfolio_wrap">
-                <img
-                  src="assets/Employee Record System.gif"
-                  alt=""
-                  class="img-fluid"
-                />
+                <img src="assets/ers.zip" alt="" class="img-fluid" />
                 <div class="portfolio_info">
                   <h4>Python Programming 1</h4>
                   <p>Employee Record System</p>
                   <div class="portfolio_links">
-                    <a href="https://github.com/EnriquezSignet/Project-Three"
-                      ><ion-icon name="link-outline"></ion-icon
-                    ></a>
+                    <a href="https://github.com/EnriquezSignet/Project-Three">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Portfolio Item 2 -->
             <div class="portfolio_item filter-web">
               <div class="portfolio_wrap">
                 <img src="assets/cat-a-log.gif" alt="" class="img-fluid" />
@@ -290,26 +290,31 @@
                   <div class="portfolio_links">
                     <a
                       href="https://github.com/EnriquezSignet/BSIS3A_Activity_2-Enriquez_Recana_StaInes"
-                      ><ion-icon name="link-outline"></ion-icon
-                    ></a>
+                    >
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Portfolio Item 3 -->
             <div class="portfolio_item filter-python">
               <div class="portfolio_wrap">
                 <img src="assets/cryptography.gif" alt="" class="img-fluid" />
                 <div class="portfolio_info">
                   <h4>Python Programming 2</h4>
-                  <p>cryptography</p>
+                  <p>Cryptography</p>
                   <div class="portfolio_links">
-                    <a href="https://github.com/EnriquezSignet/Project-One"
-                      ><ion-icon name="link-outline"></ion-icon
-                    ></a>
+                    <a href="https://github.com/EnriquezSignet/Project-One">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Portfolio Item 4 -->
             <div class="portfolio_item filter-adobe">
               <div class="portfolio_wrap">
                 <img src="assets/quiz_game.gif" alt="" class="img-fluid" />
@@ -319,6 +324,8 @@
                 </div>
               </div>
             </div>
+
+            <!-- Portfolio Item 5 -->
             <div class="portfolio_item filter-web">
               <div class="portfolio_wrap">
                 <img
@@ -330,13 +337,15 @@
                   <h4>Web 2</h4>
                   <p>Confianza and Vogue Website</p>
                   <div class="portfolio_links">
-                    <a href="https://github.com/EnriquezSignet/Project-Four"
-                      ><ion-icon name="link-outline"></ion-icon
-                    ></a>
+                    <a href="https://github.com/EnriquezSignet/Project-Four">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Portfolio Item 6 -->
             <div class="portfolio_item filter-proto">
               <div class="portfolio_wrap">
                 <img src="assets/PAWS+AR.gif" alt="" class="img-fluid" />
@@ -346,12 +355,15 @@
                   <div class="portfolio_links">
                     <a
                       href="https://www.figma.com/file/7UBYtEz45JRxqjDbgY2dAO/ISE1-ACTIVITY-11?type=design&t=R1rxkYE1Y49i0g54-6"
-                      ><ion-icon name="link-outline"></ion-icon
-                    ></a>
+                    >
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Portfolio Item 7 -->
             <div class="portfolio_item filter-adobe">
               <div class="portfolio_wrap">
                 <img
@@ -365,6 +377,8 @@
                 </div>
               </div>
             </div>
+
+            <!-- Portfolio Item 8 -->
             <div class="portfolio_item filter-web">
               <div class="portfolio_wrap">
                 <img src="assets/sms.png" alt="" class="img-fluid" />
@@ -372,13 +386,15 @@
                   <h4>Web 3</h4>
                   <p>EduBright: School Management System</p>
                   <div class="portfolio_links">
-                    <a href="https://github.com/acpr-2023/school.git"
-                      ><ion-icon name="link-outline"></ion-icon
-                    ></a>
+                    <a href="https://github.com/acpr-2023/school.git">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Portfolio Item 9 -->
             <div class="portfolio_item filter-web">
               <div class="portfolio_wrap">
                 <img src="assets/cfweb.png" alt="" class="img-fluid" />
@@ -386,13 +402,17 @@
                   <h4>Web 4</h4>
                   <p>Cleaning Fairies Website</p>
                   <div class="portfolio_links">
-                    <a href="https://github.com/acpr-2023/finalproject_bsis.git"
-                      ><ion-icon name="link-outline"></ion-icon
-                    ></a>
+                    <a
+                      href="https://github.com/acpr-2023/finalproject_bsis.git"
+                    >
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
+
+            <!-- Portfolio Item 10 -->
             <div class="portfolio_item filter-web">
               <div class="portfolio_wrap">
                 <img src="assets/crs.png" alt="" class="img-fluid" />
@@ -400,9 +420,9 @@
                   <h4>Web 5</h4>
                   <p>CoZone Reservation System</p>
                   <div class="portfolio_links">
-                    <a href="https://github.com/eloissa20/cozoneweb.git"
-                      ><ion-icon name="link-outline"></ion-icon
-                    ></a>
+                    <a href="https://github.com/eloissa20/cozoneweb.git">
+                      <ion-icon name="link-outline"></ion-icon>
+                    </a>
                   </div>
                 </div>
               </div>
