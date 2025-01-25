@@ -381,7 +381,7 @@ header .container {
   font-weight: 500;
 }
 
-/* ========== EXPERTISE SECTION ==========
+/* ========== EXPERTISE SECTION ========== */
 
 .expertise_container {
   display: grid;
@@ -530,7 +530,7 @@ header .container {
   width: 15px;
   background-color: var(--main-color);
   border-radius: 50%;
-}*/
+}
 
 /* ========== PORTFOLIO SECTION ========== */
 
